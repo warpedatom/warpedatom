@@ -1,7 +1,7 @@
 <!-- ====== PROFILE HEADER ====== -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/warpedatom/Velkris/main/Dread.png" alt="Velkris Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/warpedatom/warpedatom/main/Dread.png" alt="Velkris Banner" width="100%">
 </p>
 
 
