@@ -32,17 +32,6 @@
 
 ---
 
-<!-- GitHub general stats -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=warpedatom&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats">
-</p>
-
-<!-- Top languages -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=warpedatom&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages">
-</p>
-
----
 ## About Me
 
 I’m **Velkris**, a red team operator and cybersecurity researcher focused on:
