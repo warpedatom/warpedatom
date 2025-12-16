@@ -54,22 +54,22 @@ Adversary simulation is not about access — it’s about **measuring security c
 
 ---
 
-## 🔴 Pinned Repositories (Operator-Focused)
+## Pinned Repositories (Operator-Focused)
 
 > These repositories are intentionally pinned to reflect **real red team workflows**, not CTF artifacts.
 
-### 🔴 Red-Team-Portfolio  
+### Red-Team-Portfolio  
 **Primary adversary emulation workspace**
 - AD compromise paths
 - ATT&CK-mapped tradecraft
 - Detection notes & defensive observations
 
-### 🛠 OffsetInspect  
+### OffsetInspect  
 **Binary offset inspection & tooling**
 - PowerShell-based operational utility
 - Supports tradecraft research & obfuscation testing
 
-### 🧠 Detection-Notes *(planned / expanding)*  
+### Detection-Notes *(planned / expanding)*  
 **Blue-team-aware red team research**
 - Event IDs
 - Sysmon coverage gaps
@@ -79,7 +79,7 @@ Adversary simulation is not about access — it’s about **measuring security c
 
 ## Current Projects
 
-### 🔴 Adversary Simulation Portfolio
+### Adversary Simulation Portfolio
 - Kerberoasting, AS-REP Roasting, ticket & certificate abuse
 - Privilege escalation chains across AD trust boundaries
 - ATT&CK technique mapping with execution notes
@@ -113,7 +113,7 @@ Adversary simulation is not about access — it’s about **measuring security c
 | **CRTO** | In Progress |
 
 **Planned Progression:**  
-`CRTO II → CRTE → OSCP → OSEP → CRTM → CAPE → GXPN → OSED → OSEE`
+`GPEN → CRTO II → CRTE → OSCP → OSEP → CRTM → CAPE → GXPN → OSED → OSEE`
 
 ---
 
@@ -141,9 +141,9 @@ Adversary simulation is not about access — it’s about **measuring security c
 > Automatically updated via GitHub Actions
 
 <!--START_SECTION:activity-->
-- 🧪 Updating Active Directory attack simulations  
-- 🔧 Refining OffsetInspect tooling  
-- 📚 Documenting detection gaps and log artifacts  
+- Updating Active Directory attack simulations  
+- Refining OffsetInspect tooling  
+- Documenting detection gaps and log artifacts  
 <!--END_SECTION:activity-->
 
 ---
