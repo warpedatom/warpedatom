@@ -64,7 +64,7 @@ Comprehensive lab-based portfolio covering:
 | **CRTP** | In Progress |
 | **CRTO** | In Progress |
 | **Security+** | ✅ Completed |
-| **GPEN -> OSCP -> CRTE -> CPTS -> GRTP -> OSEP -> CRTM -> CAPE -> GXPN -> OSED -> OSEE -> GX-PT** | On Track |
+| **GPEN -> CRTO II -> CRTE -> OSCP -> GRTP -> CPTS -> OSEP -> CRTM -> CAPE -> GXPN -> OSED -> OSEE -> GX-PT** | On Track |
 
 ---
 
