@@ -152,7 +152,7 @@ Adversary simulation is not about access — it’s about **measuring security c
 
 **LinkedIn:** https://www.linkedin.com/in/perry-jared-r  
 **Portfolio:** https://github.com/warpedatom/Red-Team-Portfolio  
-**Email:** warped.atom@proton.me  
+**Email:** velkris.unicorn494@passmail.net
 
 ---
 
