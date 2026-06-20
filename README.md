@@ -113,7 +113,7 @@ Adversary simulation is not about access — it’s about **measuring security c
 | **CRTO** | In Progress |
 
 **Planned Progression:**  
-`GPEN → CRTO II → CRTE → OSCP → OSEP → CRTM → CAPE → GXPN → OSED → OSEE`
+`OSCP → CPTS → GPEN → GRTP → CRTO II → CRTE → CAPE → OSEP → CRTM → GXPN → OSED → OSEE`
 
 ---
 
