@@ -4,17 +4,17 @@
   <img src="https://raw.githubusercontent.com/warpedatom/warpedatom/main/Dread.png" alt="Velkris Banner" width="100%">
 </p>
 
-<h1 align="center">Velkris | Red Team & Adversary Simulation</h1>
+<h1 align="center">Velkris | Offensive Security & Adversary Simulation</h1>
 
 <p align="center">
-  <i>Offensive Security • Adversary Simulation • Active Directory Exploitation</i>
+  <i>Red Team Operations • Active Directory Exploitation • Adversary Emulation • Detection Validation</i>
 </p>
 
 ---
 
 <p align="center">
   <a href="https://github.com/warpedatom/Red-Team-Portfolio">
-    <img src="https://img.shields.io/badge/Portfolio-Red_Team-blue?logo=github&style=flat-square" alt="Portfolio">
+    <img src="https://img.shields.io/badge/Portfolio-Red_Team-blue?logo=github&style=flat-square" alt="Red Team Portfolio">
   </a>
   <a href="https://attack.mitre.org/">
     <img src="https://img.shields.io/badge/MITRE%20ATT%26CK-Adversary%20Emulation-red?style=flat-square" alt="MITRE ATT&CK">
@@ -22,119 +22,182 @@
   <a href="https://www.linkedin.com/in/perry-jared-r">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&style=flat-square" alt="LinkedIn">
   </a>
-  <img src="https://img.shields.io/github/followers/warpedatom?label=Followers&style=social">
-  <img src="https://img.shields.io/github/last-commit/warpedatom/Red-Team-Portfolio?style=flat-square">
-  <img src="https://img.shields.io/github/stars/warpedatom/Red-Team-Portfolio?style=social">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=warpedatom.profile">
+  <img src="https://img.shields.io/github/followers/warpedatom?label=Followers&style=social" alt="GitHub Followers">
+  <img src="https://img.shields.io/github/last-commit/warpedatom/Red-Team-Portfolio?style=flat-square" alt="Last Commit">
+  <img src="https://img.shields.io/github/stars/warpedatom/Red-Team-Portfolio?style=social" alt="GitHub Stars">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=warpedatom.profile" alt="Visitor Badge">
 </p>
 
 ---
 
-## About Me
+## About
 
-I’m **Velkris**, a red team operator and cybersecurity researcher focused on **enterprise Active Directory compromise and adversary emulation**.
+I’m **Velkris**, an offensive security practitioner focused on **enterprise penetration testing, Active Directory compromise paths, adversary simulation, and detection-informed tradecraft**.
 
-My work centers on:
-- **End-to-end AD attack chains** and privilege escalation paths  
-- **MITRE ATT&CK–aligned adversary simulations**  
-- **Tradecraft automation** and operational tooling  
-- **Detection validation** via telemetry, logs, and control testing  
+My work centers on building realistic attack paths, documenting repeatable methodology, and translating offensive findings into defender-relevant outcomes. I prioritize controlled execution, clear evidence, operational discipline, and mapping offensive actions to detection opportunities.
 
-I prioritize **realistic adversary behavior**, repeatability, and **defender-relevant outcomes** over tool-centric demonstrations.
+Core areas of focus include:
+
+* Active Directory enumeration, exploitation, and privilege escalation
+* Kerberos abuse, credential access, and identity-driven attack paths
+* MITRE ATT&CK-aligned adversary emulation
+* Red team tooling, automation, and methodology development
+* Detection validation through Windows Event Logs, Sysmon, and telemetry review
+* Practical reporting, evidence collection, and remediation-focused documentation
 
 ---
 
 ## Operator Philosophy
 
-> **Exploit behaviors, not vulnerabilities.**  
-> **Assume detection exists. Validate it.**  
-> **If it isn’t logged, it didn’t happen.**
+> **Exploit behaviors, not just vulnerabilities.**
+> **Assume detection exists. Validate it.**
+> **Access is not the objective — measurable security improvement is.**
 
-Adversary simulation is not about access — it’s about **measuring security control effectiveness under realistic pressure**.
+Adversary simulation is most valuable when it helps answer practical defensive questions:
 
----
-
-## Pinned Repositories (Operator-Focused)
-
-> These repositories are intentionally pinned to reflect **real red team workflows**, not CTF artifacts.
-
-### Red-Team-Portfolio  
-**Primary adversary emulation workspace**
-- AD compromise paths
-- ATT&CK-mapped tradecraft
-- Detection notes & defensive observations
-
-### OffsetInspect  
-**Binary offset inspection & tooling**
-- PowerShell-based operational utility
-- Supports tradecraft research & obfuscation testing
-
-### Detection-Notes *(planned / expanding)*  
-**Blue-team-aware red team research**
-- Event IDs
-- Sysmon coverage gaps
-- Attack → Detection mapping
+* Did the control prevent, detect, or miss the behavior?
+* What telemetry was generated?
+* Was the alert actionable?
+* Could the attack path be repeated, chained, or remediated?
+* What would improve resilience against similar tradecraft?
 
 ---
 
-## Current Projects
+## Featured Repositories
 
-### Adversary Simulation Portfolio
-- Kerberoasting, AS-REP Roasting, ticket & certificate abuse
-- Privilege escalation chains across AD trust boundaries
-- ATT&CK technique mapping with execution notes
-- GPU-accelerated password auditing (Hashcat / RTX 3080)
-- Automation tooling & SOP documentation
+> These repositories are intentionally organized around practical offensive security workflows rather than isolated CTF-style artifacts.
+
+### [Red-Team-Portfolio](https://github.com/warpedatom/Red-Team-Portfolio)
+
+Primary offensive security portfolio focused on adversary emulation, Active Directory attack paths, and ATT&CK-mapped tradecraft.
+
+Current and planned content includes:
+
+* Active Directory attack simulations
+* Kerberoasting and AS-REP Roasting workflows
+* Credential access and lateral movement methodology
+* Privilege escalation chains
+* ATT&CK technique mapping
+* Evidence collection and reporting notes
+* Detection observations and defensive takeaways
+
+---
+
+### OffsetInspect
+
+PowerShell-based utility for inspecting offsets and supporting tradecraft research.
+
+Areas of focus:
+
+* Binary and offset inspection
+* PowerShell-based operational utility development
+* Tradecraft testing support
+* Research workflows for controlled lab environments
+
+---
+
+### Detection-Notes
+
+Blue-team-aware red team research repository focused on mapping offensive actions to telemetry and detection logic.
+
+Planned coverage:
+
+* Windows Event IDs
+* Sysmon telemetry
+* Attack-to-detection mapping
+* Detection gaps and visibility notes
+* Defensive validation observations
+* Lab-based control testing
+
+---
+
+## Current Focus
+
+I am currently building and refining offensive security workflows around:
+
+* Active Directory compromise paths
+* Kerberos abuse and ticket-based attacks
+* AD CS and certificate abuse research
+* Trust relationships and cross-domain attack paths
+* Lateral movement and remote execution tradecraft
+* GPU-accelerated password auditing with Hashcat
+* Red team automation using PowerShell, Python, and Bash
+* Detection-informed reporting and methodology documentation
 
 ---
 
 ## MITRE ATT&CK Coverage
 
-**Actively exercised techniques include:**
+Techniques actively studied, practiced, or documented include:
 
-- Credential Access (T1003, T1558)
-- Lateral Movement (T1021, T1550)
-- Privilege Escalation (T1068, T1484)
-- Persistence (T1098)
-- Defense Evasion (T1070, T1562)
+| Tactic               | Techniques                                                                  |
+| -------------------- | --------------------------------------------------------------------------- |
+| Credential Access    | OS Credential Dumping, Kerberoasting, AS-REP Roasting, Credential Theft     |
+| Discovery            | Account Discovery, Domain Trust Discovery, Permission Group Discovery       |
+| Privilege Escalation | Abuse Elevation Control Mechanism, Domain Policy Modification, ACL Abuse    |
+| Lateral Movement     | Remote Services, Pass-the-Hash, Pass-the-Ticket, SMB/WinRM Execution        |
+| Persistence          | Account Manipulation, Additional Credentials, Certificate-Based Persistence |
+| Defense Evasion      | Indicator Removal, Impair Defenses, Obfuscated Files or Information         |
 
-> Coverage is documented per simulation with **execution evidence and detection notes**.
+> Coverage is documented per simulation with execution notes, command context, evidence, and detection observations where applicable.
 
 ---
 
 ## Certifications & Training
 
-| Certification | Status |
-|---------------|--------|
-| **CRTO** | In Progress |
-| **PNPT** | ✅ Completed |
-| **CRTP** | ✅ Completed |
-| **PJPT** | ✅ Completed |
-| **Security+** | ✅ Completed |
+| Certification / Training | Status      |
+| ------------------------ | ----------- |
+| **Security+**            | Completed   |
+| **PJPT**                 | Completed   |
+| **PNPT**                 | Completed   |
+| **CRTP**                 | Completed   |
+| **CRTO**                 | In Progress |
 
-**Planned Progression:**  
-`CRTO → CPTS → OSCP → COAE → CRTE → CAPE → CRTM → OSEP → CRTO II → CETP → OSED → RET II → CCED → OSEE → COAE → OSAI`
+### Planned Progression
 
-`PI. AD → PII. Pentest → PIII. Red Team Ops → PIV. Evasion → PV. Exploit Dev & Tooling`
+`CRTO → CPTS → OSCP → CRTE → CAPE → CRTM → OSEP → CRTO II → CETP → OSED → RET II → CCED → OSEE`
+
+### Long-Term Learning Path
+
+`Phase I: Active Directory`
+`Phase II: Enterprise Penetration Testing`
+`Phase III: Red Team Operations`
+`Phase IV: Evasion, Detection, and Tradecraft Development`
+`Phase V: Exploit Development and Advanced Tooling`
 
 ---
 
 ## Core Tool Stack
 
-`Kali Linux` • `Windows Active Directory` • `PowerShell` • `Python`  
-`BloodHound` • `Rubeus` • `Mimikatz` • `NetExec`  
-`Impacket` • `Responder` • `PsExec` • `Hashcat`  
-`Obsidian` • `GitHub Actions` • `pipx / venv`
+### Offensive Security
+
+`Kali Linux` • `Windows Active Directory` • `BloodHound` • `NetExec` • `Impacket`
+`Rubeus` • `Mimikatz` • `Responder` • `PsExec` • `Hashcat` • `Nmap` • `Burp Suite`
+
+### Development & Automation
+
+`PowerShell` • `Python` • `Bash` • `C#` • `C`
+`Git` • `GitHub Actions` • `pipx` • `venv` • `Obsidian`
+
+### Detection & Documentation
+
+`Windows Event Logs` • `Sysmon` • `MITRE ATT&CK` • `Sigma`
+`Markdown` • `Obsidian` • `Reporting Templates` • `Evidence Tracking`
 
 ---
 
 ## Knowledge Areas
 
-- Active Directory Enumeration & Abuse  
-- Kerberos & PKI Attack Surface Analysis  
-- Detection Evasion & Log Review (Sysmon / Windows Eventing)  
-- Threat Intelligence & ATT&CK Correlation  
-- Red Team Tooling & Automation  
+* Active Directory enumeration and exploitation
+* Kerberos authentication and abuse primitives
+* AD CS and PKI attack surface analysis
+* ACL, DACL, and delegation abuse
+* Lateral movement and remote execution
+* Password auditing and cracking workflows
+* Detection evasion concepts in controlled lab environments
+* Windows telemetry, Sysmon, and event correlation
+* Offensive security reporting and remediation guidance
+* Red team methodology, SOPs, and repeatable workflows
 
 ---
 
@@ -143,22 +206,24 @@ Adversary simulation is not about access — it’s about **measuring security c
 > Automatically updated via GitHub Actions
 
 <!--START_SECTION:activity-->
-- Updating Active Directory attack simulations  
-- Refining OffsetInspect tooling  
-- Documenting detection gaps and log artifacts  
+
+* Updating Active Directory attack simulations
+* Refining OffsetInspect tooling
+* Documenting detection gaps and log artifacts
+
 <!--END_SECTION:activity-->
 
 ---
 
-## Connect & Collaborate
+## Connect
 
-**LinkedIn:** https://www.linkedin.com/in/perry-jared-r  
-**Portfolio:** https://github.com/warpedatom/Red-Team-Portfolio  
-**Email:** velkris.unicorn494@passmail.net
+**LinkedIn:** https://www.linkedin.com/in/perry-jared-r
+**Portfolio:** https://github.com/warpedatom/Red-Team-Portfolio
+**Email:** [velkris.unicorn494@passmail.net](mailto:velkris.unicorn494@passmail.net)
 
 ---
 
 <p align="center">
-  <sub>© 2025 Velkris — Educational Red Team Research | MIT Licensed</sub><br>
-  <sub>All testing conducted in isolated lab environments for research and training purposes only.</sub>
+  <sub>© 2026 Velkris — Educational Offensive Security Research | MIT Licensed</sub><br>
+  <sub>All testing is conducted in authorized, isolated, or lab-controlled environments for research, training, and professional development purposes only.</sub>
 </p>
