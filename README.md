@@ -106,14 +106,16 @@ Adversary simulation is not about access — it’s about **measuring security c
 
 | Certification | Status |
 |---------------|--------|
+| **CRTO** | In Progress |
 | **PNPT** | ✅ Completed |
+| **CRTP** | ✅ Completed |
 | **PJPT** | ✅ Completed |
 | **Security+** | ✅ Completed |
-| **CRTP** | In Progress |
-| **CRTO** | In Progress |
 
 **Planned Progression:**  
-`OSCP → CPTS → GPEN → GRTP → CRTO II → CRTE → CAPE → OSEP → CRTM → GXPN → OSED → OSEE`
+`CRTO → CPTS → OSCP → COAE → CRTE → CAPE → CRTM → OSEP → CRTO II → CETP → OSED → RET II → CCED → OSEE → COAE → OSAI`
+
+`PI. AD → PII. Pentest → PIII. Red Team Ops → PIV. Evasion → PV. Exploit Dev & Tooling`
 
 ---
 
