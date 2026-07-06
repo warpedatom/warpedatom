@@ -67,10 +67,6 @@ Adversary simulation is most valuable when it helps answer practical defensive q
 
 > These repositories are intentionally organized around practical offensive security workflows rather than isolated CTF-style artifacts.
 
-### [Red-Team-Portfolio](https://github.com/warpedatom/Red-Team-Portfolio)
-
-Primary offensive security portfolio focused on adversary emulation, Active Directory attack paths, and ATT&CK-mapped tradecraft.
-
 Current and planned content includes:
 
 * Active Directory attack simulations
