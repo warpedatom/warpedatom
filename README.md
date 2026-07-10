@@ -151,7 +151,7 @@ Techniques actively studied, practiced, or documented include:
 
 ### Planned Progression
 
-`CRTO → CPTS → OSCP → CRTE → CAPE → CRTM → OSEP → CRTO II → CETP → OSED → RET II → CCED → OSEE`
+`CRTO → CRTO II → CPTS → OSCP → CRTE → CAPE → CRTM → OSEP → CETP → OSED → RET II → CCED → OSEE`
 
 ### Long-Term Learning Path
 
