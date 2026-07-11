@@ -133,7 +133,7 @@ A PowerShell utility for mapping byte offsets to source-code context using hexad
   &nbsp;•&nbsp;
   <a href="https://github.com/warpedatom/OffsetInspect">OffsetInspect</a>
   &nbsp;•&nbsp;
-  <a href="mailto:velkris.unicorn494@passmail.net">Email</a>
+  <a href="mailto:warped.atom@pm.me">Email</a>
 </p>
 
 ---
