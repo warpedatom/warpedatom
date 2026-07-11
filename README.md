@@ -467,51 +467,34 @@ The Connect section only includes valid links.
 
 
 ffff08cb-314a-43d3-8852-2d9e7a049985.png
+for some reason it repeats 4 times when scrolling down
 
-That screenshot is still rendering the old README, not the corrected one. The evidence is that it still shows:
+Worked for 10s
+That means the content was appended multiple times inside your profile README.md instead of replacing the existing text. GitHub is rendering exactly what is in the file.
 
-Portfolio | Red Team
+The screenshot also still shows the old badges—Portfolio, Followers, Stars, visitor count, and the broken repository badges—so the old version is still present.
 
-GitHub followers
+Fix it
+Open your warpedatom/warpedatom repository.
 
-Broken last commit
+Open README.md.
 
-Broken stars
+Click the pencil icon to edit.
 
-Visitor counter
+Click inside the editor and press Ctrl+A.
 
-This is not just Shields.io caching—the old badge HTML is still present in the profile README.
+Delete everything.
 
-Open:
+Paste the cleaned README once.
 
-warpedatom/warpedatom
-Then edit the root file:
+Commit the change.
 
-README.md
-Replace the entire existing badge block with:
+Refresh the profile with Ctrl+Shift+R.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/RED_TEAM-C1121F?style=flat-square" alt="Red Team">
+The cleaned file I generated contains only one profile header and no repeated sections:
 
-  <a href="https://attack.mitre.org/">
-    <img src="https://img.shields.io/badge/MITRE_ATT%26CK-Adversary_Emulation-C1121F?style=flat-square" alt="MITRE ATT&CK">
-  </a>
 
-  <a href="https://github.com/warpedatom/OffsetInspect">
-    <img src="https://img.shields.io/badge/Tool-OffsetInspect-181717?logo=github&logoColor=white&style=flat-square" alt="OffsetInspect">
-  </a>
-
-  <a href="https://www.linkedin.com/in/perry-jared-r">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white&style=flat-square" alt="LinkedIn">
-  </a>
-</p>
-Also replace the subtitle with:
-
-<p align="center">
-  <strong>Enterprise Penetration Testing • Active Directory Security • Adversary Emulation • Detection Validation</strong>
-</p>
-Then commit the change to the repository’s default branch. The profile page should update within a refresh or two.
-
+Do not paste it beneath the current content—replace the entire file.
 
 
 Library
