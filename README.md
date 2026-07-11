@@ -447,9 +447,28 @@ Done. I corrected the portfolio repository name, directly linked OffsetInspect, 
 Replace the contents of the README.md in your warpedatom/warpedatom profile repository with this file. I cannot push the change directly without access to your GitHub account. 
 
 
+c51f4546-f684-48cc-abe5-e9c8ded08de5.png
+I want red team red too. i deleted the red team portfolio repo. did not need it and it was not maintained
+
+Worked for 15s
+Updated.
+
+The Red Team badge is now red.
+
+All references to the deleted Red Team Portfolio repository are removed.
+
+The broken last-commit, stars, and portfolio links are gone.
+
+OffsetInspect is now the featured project.
+
+The Connect section only includes valid links.
+
+ 
+
+
 Library
 /
-Velkris_Profile_README.md
+README.md
 
 
 <!-- ===== PROFILE HEADER ===== -->
@@ -465,8 +484,9 @@ Velkris_Profile_README.md
 </p>
 
 <p align="center">
-  <a href="https://github.com/warpedatom/Velkris-Red-Team-Portfolio">
-    <img src="https://img.shields.io/badge/Red_Team-Portfolio-181717?logo=github&logoColor=white&style=flat-square" alt="Red Team Portfolio">
+  <img src="https://img.shields.io/badge/RED_TEAM-C1121F?style=flat-square" alt="Red Team">
+  <a href="https://attack.mitre.org/">
+    <img src="https://img.shields.io/badge/MITRE_ATT%26CK-Adversary_Emulation-C1121F?style=flat-square" alt="MITRE ATT&CK">
   </a>
   <a href="https://github.com/warpedatom/OffsetInspect">
     <img src="https://img.shields.io/badge/Tool-OffsetInspect-181717?logo=github&logoColor=white&style=flat-square" alt="OffsetInspect">
@@ -512,21 +532,7 @@ A useful assessment should determine:
 
 ---
 
-## Featured Work
-
-### [Velkris Red Team Portfolio](https://github.com/warpedatom/Velkris-Red-Team-Portfolio)
-
-A hands-on portfolio documenting offensive security research, attack simulations, methodology, and defensive observations from controlled environments.
-
-**Coverage includes:**
-
-- Active Directory attack simulations
-- Kerberoasting and AS-REP Roasting workflows
-- Credential access and lateral movement methodology
-- Privilege escalation paths
-- MITRE ATT&CK technique mapping
-- Evidence collection and reporting
-- Detection observations and defensive takeaways
+## Featured Project
 
 ### [OffsetInspect](https://github.com/warpedatom/OffsetInspect)
 
@@ -597,8 +603,6 @@ A PowerShell utility for mapping byte offsets to source-code context using hexad
 
 <p>
   <a href="https://www.linkedin.com/in/perry-jared-r">LinkedIn</a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/warpedatom/Velkris-Red-Team-Portfolio">Portfolio</a>
   &nbsp;•&nbsp;
   <a href="https://github.com/warpedatom/OffsetInspect">OffsetInspect</a>
   &nbsp;•&nbsp;
@@ -623,7 +627,7 @@ A PowerShell utility for mapping byte offsets to source-code context using hexad
 </p>
 Library
 /
-Velkris_Profile_README.md
+README.md
 
 
 <!-- ===== PROFILE HEADER ===== -->
@@ -639,8 +643,9 @@ Velkris_Profile_README.md
 </p>
 
 <p align="center">
-  <a href="https://github.com/warpedatom/Velkris-Red-Team-Portfolio">
-    <img src="https://img.shields.io/badge/Red_Team-Portfolio-181717?logo=github&logoColor=white&style=flat-square" alt="Red Team Portfolio">
+  <img src="https://img.shields.io/badge/RED_TEAM-C1121F?style=flat-square" alt="Red Team">
+  <a href="https://attack.mitre.org/">
+    <img src="https://img.shields.io/badge/MITRE_ATT%26CK-Adversary_Emulation-C1121F?style=flat-square" alt="MITRE ATT&CK">
   </a>
   <a href="https://github.com/warpedatom/OffsetInspect">
     <img src="https://img.shields.io/badge/Tool-OffsetInspect-181717?logo=github&logoColor=white&style=flat-square" alt="OffsetInspect">
@@ -686,21 +691,7 @@ A useful assessment should determine:
 
 ---
 
-## Featured Work
-
-### [Velkris Red Team Portfolio](https://github.com/warpedatom/Velkris-Red-Team-Portfolio)
-
-A hands-on portfolio documenting offensive security research, attack simulations, methodology, and defensive observations from controlled environments.
-
-**Coverage includes:**
-
-- Active Directory attack simulations
-- Kerberoasting and AS-REP Roasting workflows
-- Credential access and lateral movement methodology
-- Privilege escalation paths
-- MITRE ATT&CK technique mapping
-- Evidence collection and reporting
-- Detection observations and defensive takeaways
+## Featured Project
 
 ### [OffsetInspect](https://github.com/warpedatom/OffsetInspect)
 
@@ -771,8 +762,6 @@ A PowerShell utility for mapping byte offsets to source-code context using hexad
 
 <p>
   <a href="https://www.linkedin.com/in/perry-jared-r">LinkedIn</a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/warpedatom/Velkris-Red-Team-Portfolio">Portfolio</a>
   &nbsp;•&nbsp;
   <a href="https://github.com/warpedatom/OffsetInspect">OffsetInspect</a>
   &nbsp;•&nbsp;
