@@ -159,15 +159,16 @@ A useful assessment should determine:
 
 ### [OffsetInspect](https://github.com/warpedatom/OffsetInspect)
 
-A PowerShell utility for mapping byte offsets to source-code context through hexadecimal and ASCII inspection.
+A self-contained PowerShell module for mapping byte offsets and detection boundaries back to precise source-code context across scripts, binaries, and embedded byte sequences.
 
 **Capabilities include:**
 
-- Mapping byte offsets to corresponding source lines
-- Displaying surrounding hexadecimal and ASCII context
-- Supporting controlled static-detection research
-- Analyzing scripts, binaries, and embedded byte sequences
-- Producing repeatable inspection output without external dependencies
+- Performing streaming hexadecimal and ASCII inspection without loading entire files into memory
+- Accurately mapping UTF-8 and UTF-16 byte offsets to characters and source lines
+- Identifying detection boundaries through AMSI and Microsoft Defender providers
+- Validating boundary stability through repeated scans and prefix-search analysis
+- Producing human-readable, PowerShell object, JSON, and CSV output
+- Providing deterministic cleanup and provider-aware error handling without bundled third-party binaries
 
 ---
 
