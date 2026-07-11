@@ -466,6 +466,54 @@ The Connect section only includes valid links.
  
 
 
+ffff08cb-314a-43d3-8852-2d9e7a049985.png
+
+That screenshot is still rendering the old README, not the corrected one. The evidence is that it still shows:
+
+Portfolio | Red Team
+
+GitHub followers
+
+Broken last commit
+
+Broken stars
+
+Visitor counter
+
+This is not just Shields.io caching—the old badge HTML is still present in the profile README.
+
+Open:
+
+warpedatom/warpedatom
+Then edit the root file:
+
+README.md
+Replace the entire existing badge block with:
+
+<p align="center">
+  <img src="https://img.shields.io/badge/RED_TEAM-C1121F?style=flat-square" alt="Red Team">
+
+  <a href="https://attack.mitre.org/">
+    <img src="https://img.shields.io/badge/MITRE_ATT%26CK-Adversary_Emulation-C1121F?style=flat-square" alt="MITRE ATT&CK">
+  </a>
+
+  <a href="https://github.com/warpedatom/OffsetInspect">
+    <img src="https://img.shields.io/badge/Tool-OffsetInspect-181717?logo=github&logoColor=white&style=flat-square" alt="OffsetInspect">
+  </a>
+
+  <a href="https://www.linkedin.com/in/perry-jared-r">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white&style=flat-square" alt="LinkedIn">
+  </a>
+</p>
+Also replace the subtitle with:
+
+<p align="center">
+  <strong>Enterprise Penetration Testing • Active Directory Security • Adversary Emulation • Detection Validation</strong>
+</p>
+Then commit the change to the repository’s default branch. The profile page should update within a refresh or two.
+
+
+
 Library
 /
 README.md
