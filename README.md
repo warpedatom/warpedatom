@@ -15,9 +15,8 @@
   <a href="https://attack.mitre.org/">
     <img src="https://img.shields.io/badge/MITRE_ATT%26CK-Adversary_Emulation-C1121F?style=flat-square" alt="MITRE ATT&CK">
   </a>
-  <a href="https://github.com/warpedatom/OffsetInspect">
-    <img src="https://img.shields.io/badge/Tool-OffsetInspect-181717?logo=github&logoColor=white&style=flat-square" alt="OffsetInspect">
-  </a>
+   <a href="https://www.powershellgallery.com/packages/OffsetInspect"><img src="https://img.shields.io/powershellgallery/v/OffsetInspect?logo=powershell&logoColor=white&label=OffsetInspect&style=flat-square&color=181717" alt="OffsetInspect on PSGallery"></a>
+  <a href="https://crates.io/crates/offsetscan"><img src="https://img.shields.io/crates/v/offsetscan?logo=rust&logoColor=white&label=OffsetScan&style=flat-square&color=C1121F" alt="OffsetScan on crates.io"></a>
   <a href="https://www.linkedin.com/in/perry-jared-r">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white&style=flat-square" alt="LinkedIn">
   </a>
@@ -155,20 +154,30 @@ A useful assessment should determine:
 
 ---
 
-## Featured Project
+## Featured Tooling
 
-### [OffsetInspect](https://github.com/warpedatom/OffsetInspect)
+A two-part analysis suite for **detection-boundary research and corpus-scale static triage** — read-only, authorization-bounded, built to answer *why* a control fires and *what* an artifact is.
 
-A self-contained PowerShell module for mapping byte offsets and detection boundaries back to precise source-code context across scripts, binaries, and embedded byte sequences.
+### [OffsetInspect](https://github.com/warpedatom/OffsetInspect) · PowerShell · [PSGallery](https://www.powershellgallery.com/packages/OffsetInspect)
 
-**Capabilities include:**
+Detection-boundary and byte-offset analysis for authorized detection engineering.
 
-- Performing streaming hexadecimal and ASCII inspection without loading entire files into memory
-- Accurately mapping UTF-8 and UTF-16 byte offsets to characters and source lines
-- Identifying detection boundaries through AMSI and Microsoft Defender providers
-- Validating boundary stability through repeated scans and prefix-search analysis
-- Producing human-readable, PowerShell object, JSON, and CSV output
-- Providing deterministic cleanup and provider-aware error handling without bundled third-party binaries
+- Maps UTF-8/UTF-16 byte offsets to exact source lines, characters, and bounded hex/ASCII context — streaming, never loading whole files
+- Locates AMSI and Microsoft Defender detection boundaries and validates their stability through repeated prefix-search
+- Correlates a boundary to the content that triggered it — PE section, pre-boundary entropy, candidate signature strings
+- Journals detection drift and attributes change to file modification, signature update, or provider non-determinism
+- Authorized signature-robustness testing entirely in memory — no variant written to disk
+- Corpus scanning, cross-scan detection diffing, YARA/ClamAV, and Markdown/HTML engagement reports
+
+### [OffsetScan](https://github.com/warpedatom/OffsetScan) · Rust · [crates.io](https://crates.io/crates/offsetscan)
+
+The native, corpus-scale companion engine — JSON schema-compatible with OffsetInspect.
+
+- Parallel PE parsing, entropy, string extraction, and IOC panels across thousands of files
+- imphash verified byte-identical to pefile/VirusTotal, including special-library ordinal resolution
+- Lenient header salvage recovers triage data from truncated or damaged samples
+- Feature-gated `offsetscan yara` subcommand with output identical to OffsetInspect's
+- `cargo install offsetscan`
 
 ---
 
