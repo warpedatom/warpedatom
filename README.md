@@ -248,6 +248,8 @@ The native, corpus-scale companion engine — JSON schema-compatible with Offset
   &nbsp;•&nbsp;
   <a href="https://github.com/warpedatom/OffsetInspect">OffsetInspect</a>
   &nbsp;•&nbsp;
+  <a href="https://github.com/warpedatom/Offsetscan">Offsetscan</a>
+  &nbsp;•&nbsp;
   <a href="mailto:warped.atom@pm.me">Email</a>
 </p>
 
