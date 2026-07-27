@@ -17,8 +17,11 @@
   </a>
    <a href="https://www.powershellgallery.com/packages/OffsetInspect"><img src="https://img.shields.io/powershellgallery/v/OffsetInspect?logo=powershell&logoColor=white&label=OffsetInspect&style=flat-square&color=181717" alt="OffsetInspect on PSGallery"></a>
   <a href="https://crates.io/crates/offsetscan"><img src="https://img.shields.io/crates/v/offsetscan?logo=rust&logoColor=white&label=OffsetScan&style=flat-square&color=C1121F" alt="OffsetScan on crates.io"></a>
-  <a href="https://www.linkedin.com/in/perry-jared-r">
+   <a href="https://www.linkedin.com/in/perry-jared-r">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white&style=flat-square" alt="LinkedIn">
+  </a>
+  <a href="https://x.com/warped_atom">
+    <img src="https://img.shields.io/badge/X-%40warped__atom-000000?logo=x&logoColor=white&style=flat-square" alt="X (Twitter)">
   </a>
 </p>
 
@@ -246,11 +249,13 @@ The native, corpus-scale companion engine — JSON schema-compatible with Offset
 <p>
   <a href="https://www.linkedin.com/in/perry-jared-r">LinkedIn</a>
   &nbsp;•&nbsp;
+  <a href="https://x.com/warped_atom">X</a>
+  &nbsp;•&nbsp;
   <a href="https://github.com/warpedatom/OffsetInspect">OffsetInspect</a>
   &nbsp;•&nbsp;
-  <a href="https://github.com/warpedatom/Offsetscan">Offsetscan</a>
+  <a href="https://github.com/warpedatom/OffsetScan">OffsetScan</a>
   &nbsp;•&nbsp;
-  <a href="mailto:warped.atom@pm.me">Email</a>
+  <a href="mailto:warped.atom@proton.me">Email</a>
 </p>
 
 ---
